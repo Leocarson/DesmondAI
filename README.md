@@ -6,6 +6,9 @@ all commands and apps are input exactly as listed.
 
 i have not yet put the play_TTT code in.
 
+You need three things to run this program:
+pyttsx, SAPI5, and webbrowser.
+
 Hope you enjoy!
 
 More apps and commands coming soon.
