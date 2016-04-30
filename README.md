@@ -4,8 +4,6 @@ apps this can open: Unity Foldit MusicBee GuildWars2 Arduino Chrome Firefox NXT 
 
 all commands and apps are input exactly as listed.
 
-i have not yet put the play_TTT code in.
-
 You need three things to run this program:
 pyttsx, SAPI5, and webbrowser.
 oh, and python
