@@ -8,6 +8,12 @@ i have not yet put the play_TTT code in.
 
 You need three things to run this program:
 pyttsx, SAPI5, and webbrowser.
+oh, and python
+
+feel free to edit for the greater need of the people
+
+every version is listed with a number after the name
+e.g. version 1 is v1
 
 Hope you enjoy!
 
