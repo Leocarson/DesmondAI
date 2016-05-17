@@ -5,8 +5,8 @@ import pyttsx
 import webbrowser
 import speech_recognition as sr
 import Tkinter as tk
-API_AI_CLIENT_ACCESS_TOKEN = "b4ed0c44a01740d1a0440abba185a1d1" # api.ai keys are 32-character lowercase hexadecimal strings
-WIT_AI_KEY = "4KNQOUSF542XVFYLXM7TLYF5MJGR6"
+API_AI_CLIENT_ACCESS_TOKEN = "Your Api.ai key goes here or" # api.ai keys are 32-character lowercase hexadecimal strings
+WIT_AI_KEY = "your wit.ai key goes here"
 r = sr.Recognizer()
 engine = pyttsx.init()
 voices = engine.getProperty('voices')
@@ -222,6 +222,8 @@ while True:
                 website = r.recognize_api(audio, client_access_token=API_AI_CLIENT_ACCESS_TOKEN)
             except sr.RequestError as e:
                 website = r.recognize_wit(audio, key=WIT_AI_KEY)
+            except sr.RequestError as e:
+                command = r.recognize_google(audio)
             if website == "exit":
                 say("exiting")
                 break
