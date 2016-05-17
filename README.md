@@ -25,3 +25,6 @@ python -m pip install pyttsx
 you need SAPI5 for this to work on windows
 you need NSSpeechSynthesizer for this to work on mac
 you need espeak for this to work on linux
+
+I am working on GUI right now
+(spoiler that is not much of a spoiler: you need pygame)
