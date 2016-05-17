@@ -5,11 +5,14 @@ import pyttsx
 import webbrowser
 import speech_recognition as sr
 import Tkinter as tk
+
 API_AI_CLIENT_ACCESS_TOKEN = "Your Api.ai key goes here or" # api.ai keys are 32-character lowercase hexadecimal strings
 WIT_AI_KEY = "your wit.ai key goes here"
+
 r = sr.Recognizer()
 engine = pyttsx.init()
 voices = engine.getProperty('voices')
+
 def say(text):
     try:
         genfile = open('gender.txt', 'r')
