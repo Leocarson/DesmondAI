@@ -17,8 +17,8 @@ Hope you enjoy!
 
 More apps and commands coming soon.
 
-For speech recognition you need pyttsx
-to install
+
+to install pyttsx
 pip install pyttsx
 or for windows
 python -m pip install pyttsx
