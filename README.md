@@ -16,3 +16,12 @@ e.g. version 1 is v1
 Hope you enjoy!
 
 More apps and commands coming soon.
+
+For speech recognition you need pyttsx
+to install
+pip install pyttsx
+or for windows
+python -m pip install pyttsx
+you need SAPI5 for this to work on windows
+you need NSSpeechSynthesizer for this to work on mac
+you need espeak for this to work on linux
